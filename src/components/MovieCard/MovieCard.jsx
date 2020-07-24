@@ -21,7 +21,7 @@ class MovieCard extends React.Component {
 
 
 
-     <div className="modal-div"><a href="#">
+     <div className="modal-div">
        <Popup trigger={
       <div className="container">
          <div className="container-button">
@@ -32,9 +32,7 @@ class MovieCard extends React.Component {
        } modal>
     {close => (
       <div className="modal">
-        <a className="modal-close" onClick={close}>
-          &times;
-        </a>
+        
         
           <div className="contaider-card">
              <div className="modal-header"> {author} </div>
@@ -52,7 +50,7 @@ class MovieCard extends React.Component {
       </div>
     )}
   </Popup>
-     </a>
+     
        
        </div>   
     
